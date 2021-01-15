@@ -1,0 +1,56 @@
+$blue: #1E40C8;
+$gray: #71808E;
+$darkBlue: #091841;
+$font: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, a {
+    font-family: $font;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    font-family: $font;
+    background: $blue;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,.15), 0 4px 6px -2px rgba(0,0,0,.05);
+    }
+}
+
+nav a {
+    color: $gray;
+    text-decoration: none;
+    margin: 0 25px;
+    padding: 0;
+    &:hover {
+        color: $darkBlue;
+    }
+}
+
+.phoneNumber {
+    color: $darkBlue;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+}
+
+.operation {
+    color: $gray;
+    font-size: 12px;
+    text-align: right;
+}

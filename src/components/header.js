@@ -1,10 +1,12 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Navigation from "./navigation"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ marginBottom: `1.45rem` }}>
-    <h1>{siteTitle}</h1>
+  <header>
+    <div className="container">
+      <Navigation />
+    </div>
   </header>
 )
 

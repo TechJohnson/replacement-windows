@@ -1,1 +1,55 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, p, a {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  background: #1E40C8;
+  color: #ffffff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+nav a {
+  color: #71808E;
+  text-decoration: none;
+  margin: 0 25px;
+  padding: 0;
+}
+
+nav a:hover {
+  color: #091841;
+}
+
+.phoneNumber {
+  color: #091841;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+}
+
+.operation {
+  color: #71808E;
+  font-size: 12px;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
