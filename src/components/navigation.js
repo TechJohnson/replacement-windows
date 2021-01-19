@@ -4,7 +4,7 @@ import Button from "./button"
 import Img from "gatsby-image"
 
 
-const Navigation = ({}) => {
+const Navigation = () => {
     const data = useStaticQuery(graphql`
         query {
           placeholderImage: file(relativePath: { eq: "phone.png" }) {
