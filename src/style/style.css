@@ -123,4 +123,43 @@ header {
 .procedureSection .procedureBox p {
   line-height: 1.8;
 }
+
+.optionSection .optionBoxSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
+  margin: 0 15px;
+}
+
+.optionSection .optionBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  width: 505px;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+}
+
+.optionSection .optionBox h4 {
+  font-size: 20px;
+  color: #091841;
+  padding-bottom: 15px;
+}
+
+.optionSection .optionBox p {
+  line-height: 1.8;
+}
 /*# sourceMappingURL=style.css.map */
