@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "./button"
 import Img from "gatsby-image"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 
 const ProcedureSection = () => {
