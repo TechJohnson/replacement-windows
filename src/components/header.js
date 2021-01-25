@@ -1,11 +1,13 @@
 import PropTypes from "prop-types"
 import React from "react"
 import Navigation from "./navigation"
+import Showcase from "./showcase"
 
 const Header = ({ siteTitle }) => (
   <header>
     <div className="container">
       <Navigation />
+      <Showcase showcaseTitle="Finally, online shopping without all the hassle!" showcaseInfo="Affordable windows and doors. No long demo, no pushy salesman, no huge markup. Affordable windows with the smallest payment!" smallLinkText="Let us discuss your options" />
     </div>
   </header>
 )

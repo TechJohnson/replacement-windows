@@ -28,12 +28,19 @@ const Navigation = () => {
             display: 'flex',
             alignItems: 'center'
         }}>
-            <h1 style={{
-                marginRight: '50px'
-            }}>LOGO</h1>
+            <Link to={'/'} style={{
+                color: 'black',
+                margin: '0',
+                padding: '0',
+                cursor: 'pointer'
+            }}>
+                <h1 style={{
+                    marginRight: '50px'
+                }}>LOGO</h1>
+            </Link>
             <Link to={'#procedure'}>Our Procedure</Link>
-            <Link to={'/'}>Affordability</Link>
-            <Link to={'contact'}>Contact Us</Link>
+            <Link to={'affordability'}>Affordability</Link>
+            <Link to={'#contact'}>Contact Us</Link>
         </div>
         <div className="actions" style={{
             display: 'flex',

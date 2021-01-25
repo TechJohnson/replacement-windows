@@ -20,8 +20,6 @@ const Mobile = props => <Responsive {...props} maxWidth={899} />;
     `)
 
     return (
-        <div className="container">
-
         <div style={{
             display: 'flex',
             alignItems: 'center',
@@ -87,7 +85,7 @@ const Mobile = props => <Responsive {...props} maxWidth={899} />;
             </Mobile>
 
         </div>
-        </div>
+
     )
 }
 

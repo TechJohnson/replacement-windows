@@ -10,12 +10,14 @@ const Footer = () => {
 
     
     return (
-        <footer style={{marginTop: `2rem`,}}>
+        <footer>
             <div className="container">
 
                 <Desktop>
                     {/* Contact Form */}
-
+                    <div id="contact" style={{padding: '0 0 100px 0', textAlign: 'center'}}>
+                        <p>contact form here</p>
+                    </div>
 
                     {/* Footer Information */}
                     <div style={{
@@ -35,8 +37,8 @@ const Footer = () => {
                             width: '25%'
                         }}>
                             <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Our Procedure</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
-                            <Link to={'contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
+                            <Link to={'affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
+                            <Link to={'#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
                             <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Terms of Use</Link>
                         </div>
                         <div style={{
@@ -54,7 +56,9 @@ const Footer = () => {
 
                 <Mobile>
                     {/* Contact Form */}
-
+                    <div id="contact" style={{padding: '0 0 100px 0', textAlign: 'center'}}>
+                        <p>contact form here</p>
+                    </div>
 
                     {/* Footer Information */}
                     <div style={{
@@ -75,8 +79,8 @@ const Footer = () => {
                             width: '100%'
                         }}>
                             <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Our Procedure</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
-                            <Link to={'contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
+                            <Link to={'affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
+                            <Link to={'#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
                             <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Terms of Use</Link>
                         </div>
                         <div style={{

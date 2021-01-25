@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "./button"
 import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import Responsive from "react-responsive"
 
 
@@ -52,7 +52,9 @@ const ProcedureSection = () => {
                                 alignItems: 'center',
                                 paddingTop: '50px'
                             }}>
-                                <Button buttonText='Learn More' />
+                                <Link to={'affordability'}>
+                                    <Button buttonText='Learn More' />
+                                </Link>
                                 <p style={{
                                 fontSize: '14px',
                                 color:  '#B5BEC5',
@@ -88,7 +90,9 @@ const ProcedureSection = () => {
                         alignItems: 'center',
                         paddingTop: '50px'
                     }}>
-                        <Button buttonText='Learn More' />
+                        <Link to={'affordability'}>
+                            <Button buttonText='Learn More' />
+                        </Link>
                         <p style={{
                         fontSize: '14px',
                         color:  '#B5BEC5',
