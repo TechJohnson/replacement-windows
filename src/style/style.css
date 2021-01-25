@@ -124,6 +124,14 @@ header {
   line-height: 1.8;
 }
 
+footer {
+  background-image: url("../images/footer-bg.png");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 50px 0;
+}
+
 .optionSection .optionBoxSection {
   display: -webkit-box;
   display: -ms-flexbox;
