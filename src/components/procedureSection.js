@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "./button"
 import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 
 const ProcedureSection = () => {
@@ -45,7 +45,7 @@ const ProcedureSection = () => {
         }
     `)
     return (
-        <div className="procedureSection">
+        <div id="procedure" className="procedureSection">
             <div className="container">
                 <div style={{
                     padding: '100px 0',
@@ -89,9 +89,11 @@ const ProcedureSection = () => {
                             display: 'flex',
                             justifyContent: 'center'
                         }}>
-                            <Button buttonText='Dive Deeper' style={{
-                                justifyContent: 'center'
-                            }} />
+                            <Link to={'contact'}>                            
+                                <Button buttonText='Contact Us' style={{
+                                    justifyContent: 'center'
+                                }} />
+                            </Link>
                         </div>
 
                 </div>

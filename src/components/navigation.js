@@ -31,9 +31,9 @@ const Navigation = () => {
             <h1 style={{
                 marginRight: '50px'
             }}>LOGO</h1>
-            <Link to={'/'}>Our Procedure</Link>
+            <Link to={'#procedure'}>Our Procedure</Link>
             <Link to={'/'}>Affordability</Link>
-            <Link to={'/'}>Contact Us</Link>
+            <Link to={'contact'}>Contact Us</Link>
         </div>
         <div className="actions" style={{
             display: 'flex',

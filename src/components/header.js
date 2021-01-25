@@ -1,13 +1,11 @@
 import PropTypes from "prop-types"
 import React from "react"
 import Navigation from "./navigation"
-import HomepageShowcase from "./homepageShowcase"
 
 const Header = ({ siteTitle }) => (
   <header>
     <div className="container">
       <Navigation />
-      <HomepageShowcase />
     </div>
   </header>
 )
