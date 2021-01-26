@@ -38,7 +38,7 @@ const Navigation = () => {
                     marginRight: '50px'
                 }}>LOGO</h1>
             </Link>
-            <Link to={'#procedure'}>Our Procedure</Link>
+            <Link to={'/#procedure'}>Our Procedure</Link>
             <Link to={'affordability'}>Affordability</Link>
             <Link to={'#contact'}>Contact Us</Link>
         </div>
