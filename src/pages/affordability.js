@@ -212,7 +212,39 @@ const AffordabilityPage = () => {
             <div className="container">
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '100px 0'}}>
                     <h2>No sales games</h2>
-                    <p>We give you one price that is fair for everyone. No gimmicks, ever!</p>
+                    <p style={{paddingBottom: '50px'}}>We give you one price that is fair for everyone. No gimmicks, ever!</p>
+
+                    <div style={{
+                        display: 'grid',
+                        gridGap: '20px',
+                        textAlign: 'center',
+                        gridTemplateColumns: 'auto',
+                    }}>
+                        <div style={{
+                            padding: '30px',
+                            margin: '0',
+                            borderRadius: '10px',
+                            boxShadow: '0 10px 25px -3px rgba(0,0,0,.10)'
+                        }}>
+                            <h4 style={{paddingBottom: '25px'}}>BUY 1 GET 1 FREE</h4>
+                            <p style={{paddingBottom: '10px'}}>We all know how that works.</p>
+                            <p style={{paddingBottom: '10px'}}>In a home one night, a customer asked if I could beat a buy 1 get 1 free?</p>
+                            <p style={{paddingBottom: '10px'}}>I said, "sure, you buy 1 from me, I'll give you 8 free!"</p>
+                            <p style={{paddingBottom: '10px'}}>She said, "how can you do that?"</p>
+                            <p style={{paddingBottom: '10px'}}>I said, "same way they do buy 1 get 1. I'll charge $6,000 for the 1, then give you 8 free."</p>
+                        </div>
+                        <div style={{
+                            padding: '30px',
+                            margin: '0',
+                            borderRadius: '10px',
+                            boxShadow: '0 10px 25px -3px rgba(0,0,0,.10)'
+                        }}>
+                            <h4 style={{paddingBottom: '25px'}}>$250 ANY SIZE DOUBLE HUNG</h4>
+                            <p style={{paddingBottom: '10px'}}>A lot of people have been burnt by this.</p>
+                            <p style={{paddingBottom: '10px'}}>It is like the base price of a car or truck</p>
+                            <p style={{paddingBottom: '10px'}}>Once you add all the extra's, it ends up costing you $540 and it is still a low quality window.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
