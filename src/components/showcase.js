@@ -41,7 +41,9 @@ const Mobile = props => <Responsive {...props} maxWidth={899} />;
                         padding: '30px 0'
                     }}>{props.showcaseInfo}</p>
                     <div>
-                        <Button buttonText="Our Windows" />
+                        <Link to={'windows'} style={{padding: '0', margin: '0'}}>
+                            <Button buttonText="Our Windows" />
+                        </Link>                        
                         <Link to={'contact'} style={{
                             marginLeft: '50px',
                             fontSize: '18px',
@@ -71,7 +73,9 @@ const Mobile = props => <Responsive {...props} maxWidth={899} />;
                         padding: '30px 0'
                     }}>{props.showcaseInfo}</p>
                     <div>
-                        <Button buttonText="Our Windows" />
+                        <Link to={'windows'} style={{padding: '0', margin: '0'}}>
+                            <Button buttonText="Our Windows" />
+                        </Link>
                         <Link to={'contact'} style={{
                             marginLeft: '50px',
                             fontSize: '18px',

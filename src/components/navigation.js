@@ -56,7 +56,9 @@ const Navigation = () => {
                     <p className="operation">Mon-Fri 9am-5pm EST</p>
                 </div>
             </div>
-            <Button buttonText="Our Windows" />
+            <Link to={'windows'} style={{padding: '0', margin: '0'}}>
+                <Button buttonText="Our Windows" />
+            </Link>
         </div>
     </nav>
     )
