@@ -7,6 +7,13 @@ import Img from "gatsby-image"
 const Navigation = () => {
     const data = useStaticQuery(graphql`
         query {
+            logo: file(relativePath: { eq: "logo.png" }) {
+                childImageSharp {
+                    fixed(width: 175) {
+                        ...GatsbyImageSharpFixed
+                    }
+                }
+            }
           placeholderImage: file(relativePath: { eq: "phone.png" }) {
             childImageSharp {
               fixed(width: 15) {
@@ -34,9 +41,7 @@ const Navigation = () => {
                 padding: '0',
                 cursor: 'pointer'
             }}>
-                <h1 style={{
-                    marginRight: '50px'
-                }}>LOGO</h1>
+                <Img style={{marginRight: '25px'}} fixed={data.logo.childImageSharp.fixed} />
             </Link>
             <Link to={'/#procedure'}>Our Procedure</Link>
             <Link to={'affordability'}>Affordability</Link>

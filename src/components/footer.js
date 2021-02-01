@@ -1,9 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery } from "gatsby"
 import Responsive from "react-responsive"
+import Img from "gatsby-image"
+
 
 
 const Footer = () => {
+    const data = useStaticQuery(graphql`
+    query {
+        logo: file(relativePath: { eq: "logo.png" }) {
+            childImageSharp {
+                fixed(width: 175) {
+                    ...GatsbyImageSharpFixed
+                }
+            }
+        }
+    }
+  `)
 
     const Mobile = props => <Responsive {...props} maxWidth={899} />;
     const Desktop = props => <Responsive {...props} minWidth={900} />;
@@ -28,7 +41,7 @@ const Footer = () => {
                         <div style={{
                             width: '50%'
                         }}>
-                            <h1 style={{fontSize: '26px', paddingBottom: '25px'}}>LOGO</h1>
+                            <Img style={{marginBottom: '25px'}} fixed={data.logo.childImageSharp.fixed} />
                             <p style={{lineHeight: '1.8'}}>Affordable windows and doors. No long demo, no pushy salesman, no huge markup. Affordable windows with the smallest payment!</p>
                         </div>
                         <div style={{
@@ -69,7 +82,7 @@ const Footer = () => {
                         <div style={{
                             width: '100%'
                         }}>
-                            <h1 style={{fontSize: '26px', paddingBottom: '25px'}}>LOGO</h1>
+                            <Img style={{marginBottom: '25px'}} fixed={data.logo.childImageSharp.fixed} />
                             <p style={{lineHeight: '1.8'}}>Affordable windows and doors. No long demo, no pushy salesman, no huge markup. Affordable windows with the smallest payment!</p>
                         </div>
                         <div style={{
