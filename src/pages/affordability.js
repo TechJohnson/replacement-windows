@@ -22,35 +22,42 @@ const AffordabilityPage = () => {
                 }
             }
         }
-        purchase: file(relativePath: { eq: "purchase.png"}) {
+        purchase: file(relativePath: { eq: "installer.png"}) {
             childImageSharp {
                 fixed(width: 50) {
                     ...GatsbyImageSharpFixed
                 }
             }
         }
-        moneybag: file(relativePath: { eq: "money-bag.png"}) {
+        moneybag: file(relativePath: { eq: "purchase.png"}) {
             childImageSharp {
                 fixed(width: 50) {
                     ...GatsbyImageSharpFixed
                 }
             }
         }
-        question: file(relativePath: { eq: "question.png"}) {
+        markup: file(relativePath: { eq: "markup.png"}) {
             childImageSharp {
                 fixed(width: 50) {
                     ...GatsbyImageSharpFixed
                 }
             }
         }
-        options: file(relativePath: { eq: "options.png"}) {
+        question: file(relativePath: { eq: "salesman.png"}) {
             childImageSharp {
                 fixed(width: 50) {
                     ...GatsbyImageSharpFixed
                 }
             }
         }
-        phonechat: file(relativePath: { eq: "phone-chat.png" }) {
+        options: file(relativePath: { eq: "overhead.png"}) {
+            childImageSharp {
+                fixed(width: 50) {
+                    ...GatsbyImageSharpFixed
+                }
+            }
+        }
+        phonechat: file(relativePath: { eq: "measurements.png" }) {
             childImageSharp {
                 fixed(width: 50) {
                     ...GatsbyImageSharpFixed
@@ -138,7 +145,7 @@ const AffordabilityPage = () => {
                                 <p>When you are ready to make a decisions, we have options for you.</p>
                             </div>
                             <div className='procedureBox'>
-                                <Img style={{marginBottom: '20px'}} fixed={data.purchase.childImageSharp.fixed} />
+                                <Img style={{marginBottom: '20px'}} fixed={data.markup.childImageSharp.fixed} />
                                 <h4>Lower Markup</h4>
                                 <p>When you are ready to make a decisions, we have options for you.</p>
                             </div>
