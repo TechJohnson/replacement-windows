@@ -4,19 +4,21 @@ const ContactForm = () => {
 
     return (
 
-        <div>
+        <div style={{
+            paddingBottom: '100px;',
+        }}>
             <h2 style={{textAlign: 'center'}}>Let's get in touch</h2>
             <p style={{textAlign: 'center'}}>Shoot us a quick email to gather some more information</p>
             <form name="contact" method="POST" data-netlify="true">
                 <div className="inputArea">
                     <div className="inputs">
-                        <input type="name" name="name" placeholder="name"/>
+                        <input type="text" name="name" placeholder="name"/>
                     </div>
                     <div className="inputs">
                         <input type="email" name="email" placeholder="email"/>
                     </div>
                     <div className="inputs">
-                        <input type="number" name="number" placeholder="phone"/>
+                        <input type="tel" name="number" placeholder="phone"/>
                     </div>
                 </div>
                 <div className="messsage">
