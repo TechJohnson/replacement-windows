@@ -130,10 +130,7 @@ header {
 }
 
 footer {
-  background-image: url("../images/footer-bg.png");
-  background-position: top left;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #f7fafd;
   padding: 100px 0 50px 0;
 }
 
@@ -281,5 +278,10 @@ form textarea::placeholder {
 .submit-btn:hover {
   -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
           box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.formBackground {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f7fafd));
+  background-image: linear-gradient(white, #f7fafd);
 }
 /*# sourceMappingURL=style.css.map */
