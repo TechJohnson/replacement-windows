@@ -7,7 +7,7 @@ const ContactForm = () => {
         <div>
             <h2 style={{textAlign: 'center'}}>Let's get in touch</h2>
             <p style={{textAlign: 'center'}}>Shoot us a quick email to gather some more information</p>
-            <form name="contact-form" method="POST" data-netlify="true" netlify>
+            <form name="contact-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                 <div className="inputArea">
                     <div className="inputs">
                         <input type="name" name="name" placeholder="name"/>
