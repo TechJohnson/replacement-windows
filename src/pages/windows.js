@@ -1,23 +1,21 @@
 import React from "react"
-import { useStaticQuery } from "gatsby"
 import Footer from "../components/footer"
 import Navigation from "../components/navigation"
 import Button from "../components/button"
-import Img from "gatsby-image"
 import WindowOptions from "../components/windowOptions"
 
 const AffordabilityPage = () => {
-    const data = useStaticQuery(graphql`
-        query {
-            outWindow: file(relativePath: { eq: "looking-out-window.png" }) {
-                childImageSharp {
-                    fluid(maxWidth: 587) {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
-        }
-    `)
+    // const data = useStaticQuery(graphql`
+    //     query {
+    //         outWindow: file(relativePath: { eq: "looking-out-window.png" }) {
+    //             childImageSharp {
+    //                 fluid(maxWidth: 587) {
+    //                     ...GatsbyImageSharpFluid
+    //                 }
+    //             }
+    //         }
+    //     }
+    // `)
 
     return (
 

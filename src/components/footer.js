@@ -2,6 +2,7 @@ import React from "react"
 import { Link, useStaticQuery } from "gatsby"
 import Responsive from "react-responsive"
 import Img from "gatsby-image"
+import ContactForm from "../components/contactForm"
 
 
 
@@ -28,8 +29,8 @@ const Footer = () => {
 
                 <Desktop>
                     {/* Contact Form */}
-                    <div id="contact" style={{padding: '0 0 100px 0', textAlign: 'center'}}>
-                        <p>contact form here</p>
+                    <div id="contact" style={{padding: '0 0 100px 0'}}>
+                        <ContactForm />
                     </div>
 
                     {/* Footer Information */}
@@ -70,7 +71,7 @@ const Footer = () => {
                 <Mobile>
                     {/* Contact Form */}
                     <div id="contact" style={{padding: '0 0 100px 0', textAlign: 'center'}}>
-                        <p>contact form here</p>
+                        <ContactForm />
                     </div>
 
                     {/* Footer Information */}
