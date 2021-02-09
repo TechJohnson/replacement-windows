@@ -24,7 +24,7 @@ const Homepage = () => (
           <h2 style={{textAlign: 'center'}}>Let's get in touch</h2>
           <p style={{textAlign: 'center'}}>Shoot us a quick email to gather some more information</p>
 
-          <form name="Homepage" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="Homepage" id="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="inputArea">
               <div className="inputs">
                 <input type="text" name="name" id="name" placeholder="name"/>
