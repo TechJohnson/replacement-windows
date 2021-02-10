@@ -44,7 +44,7 @@ const Navigation = () => {
                 <Img style={{marginRight: '25px'}} fixed={data.logo.childImageSharp.fixed} />
             </Link>
             <Link to={'/#procedure'}>Our Procedure</Link>
-            <Link to={'affordability'}>Affordability</Link>
+            <Link to={'/affordability'}>Affordability</Link>
             <Link to={'#contact'}>Contact Us</Link>
         </div>
         <div className="actions" style={{
