@@ -264,7 +264,7 @@ const AffordabilityPage = () => {
           <p style={{textAlign: 'center'}}>Shoot us a quick email to gather some more information</p>
 
           <form name="Affordability" id="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="name_of_my_form" />
+          <input type="hidden" name="Affordability" value="Affordability" />
 
             <div className="inputArea">
               <div className="inputs">
