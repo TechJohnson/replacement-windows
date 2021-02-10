@@ -16,7 +16,7 @@ const Homepage = () => (
 
     <WindowOptions />
 
-    <div className="formBackground">
+    {/* <div className="formBackground">
       <div className="container">
         <div style={{
         paddingBottom: '100px',
@@ -44,7 +44,7 @@ const Homepage = () => (
           </form>
         </div>
       </div>
-    </div>
+    </div> */}
 
   </Layout>
 )

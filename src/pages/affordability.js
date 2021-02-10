@@ -255,7 +255,7 @@ const AffordabilityPage = () => {
                 </div>
             </div>
 
-            <div className="formBackground">
+            {/* <div className="formBackground">
       <div className="container">
         <div style={{
         paddingBottom: '100px',
@@ -283,7 +283,7 @@ const AffordabilityPage = () => {
           </form>
         </div>
       </div>
-    </div>
+    </div> */}
 
 
     
