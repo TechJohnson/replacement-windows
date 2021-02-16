@@ -89,7 +89,7 @@ const ProcedureSection = () => {
                             display: 'flex',
                             justifyContent: 'center'
                         }}>
-                            <Link to={'contact'}>                            
+                            <Link to={'#contact'}>                            
                                 <Button buttonText='Contact Us' style={{
                                     justifyContent: 'center'
                                 }} />
