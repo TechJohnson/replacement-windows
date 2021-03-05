@@ -284,4 +284,17 @@ form textarea::placeholder {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f7fafd));
   background-image: linear-gradient(white, #f7fafd);
 }
+
+.legal {
+  padding: 0;
+  margin: 0;
+}
+
+.legal p {
+  margin-bottom: 25px;
+}
+
+.legal .italic {
+  font-style: italic;
+}
 /*# sourceMappingURL=style.css.map */

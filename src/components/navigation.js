@@ -57,11 +57,11 @@ const Navigation = () => {
             }}>
                 <Img style={{marginTop: '7px', marginRight: '10px'}} fixed={data.placeholderImage.childImageSharp.fixed} />
                 <div className="meta">
-                    <p className="phoneNumber">768-234-4687</p>
+                    <p className="phoneNumber">1-855-794-4663</p>
                     <p className="operation">Mon-Fri 9am-5pm EST</p>
                 </div>
             </div>
-            <Link to={'windows'} style={{padding: '0', margin: '0'}}>
+            <Link to={'/windows'} style={{padding: '0', margin: '0'}}>
                 <Button buttonText="Our Windows" />
             </Link>
         </div>

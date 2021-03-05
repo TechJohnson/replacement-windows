@@ -31,12 +31,14 @@ const Footer = () => {
                     <div style={{
                         display: 'flex',
                         flexWrap: 'wrap',
-                        paddingBottom: '75px'
+                        paddingBottom: '50px'
                     }}>
                         <div style={{
                             width: '50%'
                         }}>
-                            <Img style={{marginBottom: '25px'}} fixed={data.logo.childImageSharp.fixed} />
+                            <Link to={'/'}>
+                                <Img style={{marginBottom: '25px'}} fixed={data.logo.childImageSharp.fixed} />
+                            </Link>
                             <p style={{lineHeight: '1.8'}}>Affordable windows and doors. No long demo, no pushy salesman, no huge markup. Affordable windows with the smallest payment!</p>
                         </div>
                         <div style={{
@@ -45,19 +47,16 @@ const Footer = () => {
                             width: '25%'
                         }}>
                             <Link to={'/#procedure'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Our Procedure</Link>
-                            <Link to={'affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
+                            <Link to={'/affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
                             <Link to={'#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Terms of Use</Link>
                         </div>
                         <div style={{
                             display: 'flex',
                             flexDirection: 'column',
                             width: '25%'
                         }}>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>email@email.com</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>123-456-7890</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>123 Road Name</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Altoona, PA 16601</Link>
+                            <Link style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>replacementwindowsonline@mail.com</Link>
+                            <Link style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>1-855-794-4663</Link>
                         </div>
                     </div>
                 </Desktop>
@@ -72,12 +71,14 @@ const Footer = () => {
                     <div style={{
                         display: 'flex',
                         flexDirection: 'column',
-                        paddingBottom: '75px'
+                        paddingBottom: '50px'
                     }}>
                         <div style={{
                             width: '100%'
                         }}>
-                            <Img style={{marginBottom: '25px'}} fixed={data.logo.childImageSharp.fixed} />
+                            <Link to={'/'}>
+                                <Img style={{marginBottom: '25px'}} fixed={data.logo.childImageSharp.fixed} />
+                            </Link>                            
                             <p style={{lineHeight: '1.8'}}>Affordable windows and doors. No long demo, no pushy salesman, no huge markup. Affordable windows with the smallest payment!</p>
                         </div>
                         <div style={{
@@ -87,22 +88,33 @@ const Footer = () => {
                             width: '100%'
                         }}>
                             <Link to={'/#procedure'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Our Procedure</Link>
-                            <Link to={'affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
+                            <Link to={'/affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
                             <Link to={'#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Terms of Use</Link>
                         </div>
                         <div style={{
                             display: 'flex',
                             flexDirection: 'column',
                             width: '100%'
                         }}>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>email@email.com</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>123-456-7890</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>123 Road Name</Link>
-                            <Link to={'/'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Altoona, PA 16601</Link>
+                            <Link style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>replacementwindowsonline@mail.com</Link>
+                            <Link style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>1-855-794-4663</Link>
                         </div>
                     </div>
                 </Mobile>
+
+
+                {/* Legal */}
+                <div style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    justifyContent: 'center',
+                    maxWidth: '580px',
+                    margin: '0 auto'
+                }}>
+                    <Link to={'/legal-agreement'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', margin: '10px 30px 20px 30px'}}>Legal Agreement</Link>
+                    <Link to={'/privacy-policy'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', margin: '10px 30px 20px 30px'}}>Privacy Policy</Link>
+                    <Link to={'/terms-conditions'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', margin: '10px 30px 20px 30px'}}>Terms & Conditions</Link>
+                </div>
 
 
 

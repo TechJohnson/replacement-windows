@@ -217,3 +217,15 @@ form {
 .formBackground {
     background-image: linear-gradient(rgb(255, 255, 255), rgb(247, 250, 253));
 }
+
+
+.legal {
+    padding: 0;
+    margin: 0;
+    p {
+        margin-bottom: 25px;
+    }
+    .italic {
+        font-style: italic;
+    }
+}
