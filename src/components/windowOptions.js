@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "./button"
 import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 
 const WindowOptions = () => {
@@ -93,9 +93,11 @@ const WindowOptions = () => {
                             display: 'flex',
                             justifyContent: 'center'
                         }}>
-                            <Button buttonText='Dive Deeper' style={{
-                                justifyContent: 'center'
-                            }} />
+                            <Link to={'/windows'}>
+                                <Button buttonText='Dive Deeper' style={{
+                                    justifyContent: 'center'
+                                }} />
+                            </Link>
                         </div>
 
                 </div>
