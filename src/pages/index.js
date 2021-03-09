@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ProcedureSection from "../components/procedureSection"
 import Affordability from "../components/affordability"
-import WindowOptions from "../components/windowOptions"
+import WindowOptions from "../components/windowOptions" 
 
 const Homepage = () => (
   <Layout>
