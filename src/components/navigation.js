@@ -45,7 +45,7 @@ const Navigation = () => {
             </Link>
             <Link to={'/our-procedure'}>Our Procedure</Link>
             <Link to={'/affordability'}>Affordability</Link>
-            <Link to={'#contact'}>Contact Us</Link>
+            <Link to={'/#contact'}>Contact Us</Link>
             <Link to={'/faq'}>FAQs</Link>
         </div>
         <div className="actions" style={{
