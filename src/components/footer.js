@@ -48,7 +48,8 @@ const Footer = () => {
                         }}>
                             <Link to={'/#procedure'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Our Procedure</Link>
                             <Link to={'/affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
-                            <Link to={'#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
+                            <Link to={'/#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
+                            <Link to={'/faq'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>FAQ</Link>
                         </div>
                         <div style={{
                             display: 'flex',
@@ -89,7 +90,8 @@ const Footer = () => {
                         }}>
                             <Link to={'/#procedure'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Our Procedure</Link>
                             <Link to={'/affordability'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Affordability</Link>
-                            <Link to={'#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
+                            <Link to={'/#contact'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>Contact Us</Link>
+                            <Link to={'/faq'} style={{fontSize: '1.125rem', color: '#71808E', textDecoration: 'none', marginBottom: '20px'}}>FAQ</Link>
                         </div>
                         <div style={{
                             display: 'flex',
