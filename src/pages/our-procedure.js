@@ -5,7 +5,7 @@ import Navigation from "../components/navigation"
 import Button from "../components/button"
 import Img from "gatsby-image"
 
-const AffordabilityPage = () => {
+const OurProcedure = () => {
     const data = useStaticQuery(graphql`
     query {
         outWindow: file(relativePath: { eq: "affordability.png" }) {
@@ -90,14 +90,14 @@ const AffordabilityPage = () => {
                             color: '#091841',
                             padding: '0',
                             margin: '0'
-                        }}>Prices that work for you!</h2>
+                        }}>We don't play the sales games!</h2>
                         <p style={{
                             fontSize: '18px',
                             color: '#71808E',
                             textAlign: 'center',
                             paddingTop: '24px',
                             paddingBottom: '24px'
-                        }}>With our multiple payment options, you have the flexibility to pick what works best for you.</p>
+                        }}>We will make your experience as positive as possible.</p>
                         <Link to={'#contact'}>
                             <Button buttonText="Let's get started"/>
                         </Link>
@@ -115,50 +115,35 @@ const AffordabilityPage = () => {
                         <div style={{
                             textAlign: 'center'
                         }}>
-                            <h2>How can we make it so affordable?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ipsam amet molestias!</p>
+                            <h2>Our procedure</h2>
+                            <p>We make it quick and easy to get a quote tailored to your individual needs and taste!</p>
                         </div>
                         <div className='procedureBoxSection'>
                             <div className='procedureBox'>
                                 <Img style={{marginBottom: '20px'}} fixed={data.phonechat.childImageSharp.fixed} />
-                                <h4>Volume Purchasing</h4>
+                                <h4>Contact Us</h4>
                                 <p>Send us your measurements of any, and all, windows and doors.</p>
                             </div>
                             <div className='procedureBox'>
                                 <Img style={{marginBottom: '20px'}} fixed={data.question.childImageSharp.fixed} />
-                                <h4>No Pushy Salesmen</h4>
+                                <h4>Questions</h4>
                                 <p>We will determine what you want to accomplish with your windows.</p>
                             </div>
                             <div className='procedureBox'>
                                 <Img style={{marginBottom: '20px'}} fixed={data.options.childImageSharp.fixed} />
-                                <h4>Low Overhead</h4>
+                                <h4>Options</h4>
                                 <p>We have a variety of window styles to choose from.</p>
                             </div>
                             <div className='procedureBox'>
                                 <Img style={{marginBottom: '20px'}} fixed={data.moneybag.childImageSharp.fixed} />
-                                <h4>Low Marketing Costs</h4>
+                                <h4>Custom Cost</h4>
                                 <p>We provide the lowest cost in the industry, as well as finance options.</p>
                             </div>
                             <div className='procedureBox'>
                                 <Img style={{marginBottom: '20px'}} fixed={data.purchase.childImageSharp.fixed} />
-                                <h4>Skilled Installers</h4>
+                                <h4>Purchase</h4>
                                 <p>When you are ready to make a decisions, we have options for you.</p>
                             </div>
-                            <div className='procedureBox'>
-                                <Img style={{marginBottom: '20px'}} fixed={data.markup.childImageSharp.fixed} />
-                                <h4>Lower Markup</h4>
-                                <p>When you are ready to make a decisions, we have options for you.</p>
-                            </div>
-                        </div>
-                        <div style={{
-                            display: 'flex',
-                            justifyContent: 'center'
-                        }}>
-                            <Link to={'#contact'}>                            
-                                <Button buttonText='Contact Us' style={{
-                                    justifyContent: 'center'
-                                }} />
-                            </Link>
                         </div>
                     </div>
                 </div>
@@ -177,10 +162,17 @@ const AffordabilityPage = () => {
                         width: '100%'
                     }}>
                         <div style={{
-                            width: '50%'
+                            width: '49%'
                         }}>
-                            <h3>Affordability Options</h3>
-                            <h2>Get the windows you deserve!</h2>
+                            <h3>Buying option 1</h3>
+                            <h2>Virtual Consultation</h2>
+                            <p style={{lineHeight: '1.8'}}>You can give us your measurements and we can give you an estimate. The only thing that could change the estimate is when we inspect your windows for order purposes, there could be additional labor costs if there is additional labor needed to install. Or if there is more than normal wood rot that would take wood repairs.</p>
+                        </div>
+                        <div style={{
+                            width: '49%'
+                        }}>
+                            <h3>Buying option 2</h3>
+                            <h2>In-Person Inspection</h2>
                             <p style={{lineHeight: '1.8'}}>Our pricing structure will make it affordable for everyone, no matter what their current financial situation is. With our multiple payment options, you have the flexibility to pick what works best for you.</p>
                             <ul style={{
                                 display: 'grid',
@@ -194,23 +186,6 @@ const AffordabilityPage = () => {
                                 <li style={{margin: '5px 0'}}>Limited Time Low Interest</li>
                                 <li style={{margin: '5px 0'}}>Perfect Credit NOT Necessary</li>
                             </ul>
-                            <div style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                paddingTop: '50px'
-                            }}>
-                                <Link to={'#contact'}>
-                                    <Button buttonText='Get Started' />
-                                </Link>
-                                <p style={{
-                                fontSize: '14px',
-                                color:  '#B5BEC5',
-                                marginLeft: '50px'
-                                }}>* Must quality for third party financing</p>
-                            </div>
-                        </div>
-                        <div>
-                            <Img fixed={data.outWindow.childImageSharp.fixed} />
                         </div>
                     </div>
                 </div>
@@ -255,37 +230,6 @@ const AffordabilityPage = () => {
                 </div>
             </div>
 
-            <div className="formBackground">
-      <div className="container">
-        <div style={{
-        paddingBottom: '100px',
-        }}>
-          <h2 style={{textAlign: 'center'}}>Let's get in touch</h2>
-          <p style={{textAlign: 'center'}}>Shoot us a quick email to gather some more information</p>
-
-          <form name="Affordability" id="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="Affordability" />
-            <div className="inputArea">
-              <div className="inputs">
-                <input type="text" name="name" id="name" placeholder="name" required/>
-              </div>
-              <div className="inputs">
-                <input type="email" name="email" id="email" placeholder="email" required/>
-              </div>
-              <div className="inputs">
-                <input type="tel" name="number" id="number" placeholder="phone" required/>
-              </div>
-            </div>
-            <div className="messsage">
-              <textarea name="message" placeholder="Which window would you like more information about?" required></textarea>
-            </div>
-              <button className="submit-btn" type="submit">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-
     
             <Footer />
             
@@ -297,4 +241,4 @@ const AffordabilityPage = () => {
 }
 
 
-export default AffordabilityPage
+export default OurProcedure

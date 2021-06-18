@@ -28,17 +28,17 @@ const Homepage = () => (
           <input type="hidden" name="Homepage" value="Homepage" />
             <div className="inputArea">
               <div className="inputs">
-                <input type="text" name="name" id="name" placeholder="name"/>
+                <input type="text" name="name" id="name" placeholder="name" required/>
               </div>
               <div className="inputs">
-                <input type="email" name="email" id="email" placeholder="email"/>
+                <input type="email" name="email" id="email" placeholder="email" required/>
               </div>
               <div className="inputs">
-                <input type="tel" name="number" id="number" placeholder="phone"/>
+                <input type="tel" name="number" id="number" placeholder="phone" required/>
               </div>
             </div>
             <div className="messsage">
-              <textarea name="message" placeholder="Which window would you like more information about?"></textarea>
+              <textarea name="message" placeholder="Which window would you like more information about?" required></textarea>
             </div>
               <button className="submit-btn" type="submit">Send Message</button>
           </form>

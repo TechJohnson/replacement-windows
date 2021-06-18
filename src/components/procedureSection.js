@@ -89,8 +89,8 @@ const ProcedureSection = () => {
                             display: 'flex',
                             justifyContent: 'center'
                         }}>
-                            <Link to={'#contact'}>                            
-                                <Button buttonText='Contact Us' style={{
+                            <Link to={'/our-procedure'}>                            
+                                <Button buttonText='Learn More' style={{
                                     justifyContent: 'center'
                                 }} />
                             </Link>
