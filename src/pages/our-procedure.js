@@ -98,7 +98,7 @@ const OurProcedure = () => {
                             paddingTop: '24px',
                             paddingBottom: '24px'
                         }}>We will make your experience as positive as possible.</p>
-                        <Link to={'#contact'}>
+                        <Link to={'/#contact'}>
                             <Button buttonText="Let's get started"/>
                         </Link>
                     </div>

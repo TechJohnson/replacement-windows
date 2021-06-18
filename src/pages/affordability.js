@@ -98,7 +98,7 @@ const AffordabilityPage = () => {
                             paddingTop: '24px',
                             paddingBottom: '24px'
                         }}>With our multiple payment options, you have the flexibility to pick what works best for you.</p>
-                        <Link to={'#contact'}>
+                        <Link to={'/#contact'}>
                             <Button buttonText="Let's get started"/>
                         </Link>
                     </div>
@@ -154,7 +154,7 @@ const AffordabilityPage = () => {
                             display: 'flex',
                             justifyContent: 'center'
                         }}>
-                            <Link to={'#contact'}>                            
+                            <Link to={'/#contact'}>                            
                                 <Button buttonText='Contact Us' style={{
                                     justifyContent: 'center'
                                 }} />
@@ -199,7 +199,7 @@ const AffordabilityPage = () => {
                                 alignItems: 'center',
                                 paddingTop: '50px'
                             }}>
-                                <Link to={'#contact'}>
+                                <Link to={'/#contact'}>
                                     <Button buttonText='Get Started' />
                                 </Link>
                                 <p style={{
