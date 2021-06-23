@@ -65,8 +65,8 @@ const WindowTier = () => {
                     </div>
                     <div>
                         <h3>Bronze</h3>
-                        <h2>Title Here 1</h2>
-                        <p>Quick description about this option.</p>
+                        <h2>Perfect for a quick replacement window!</h2>
+                        <p>Quick Features:</p>
                         <ul>
                             <li>Vinyl double pane</li>
                             <li>Argon gas</li>
@@ -86,8 +86,8 @@ const WindowTier = () => {
                     </div>
                     <div>
                         <h3>Silver</h3>
-                        <h2>Title Here 2</h2>
-                        <p>Quick description about this option.</p>
+                        <h2>Affordable replacement with great strength</h2>
+                        <p>Quick Features:</p>
                         <ul>
                             <li>Vinyl double pane</li>
                             <li>Fusion welded frame/sash</li>
@@ -141,8 +141,8 @@ const WindowTier = () => {
                     </div>
                     <div>
                         <h3>Gold</h3>
-                        <h2>Title Here 3</h2>
-                        <p>Quick description about this option.</p>
+                        <h2>Strength and Security</h2>
+                        <p>Quick Features:</p>
                         <ul>
                             <li>Vinyl double pane with optional triple pane</li>
                         </ul>
@@ -194,8 +194,8 @@ const WindowTier = () => {
                     </div>
                     <div>
                         <h3>Platinum</h3>
-                        <h2>Title Here 4</h2>
-                        <p>Quick description about this option.</p>
+                        <h2>Ease-of-mind</h2>
+                        <p>Quick Features:</p>
                         <ul>
                             <li>Vinyl double pane</li>
                             <li>Half-screen</li>
@@ -220,8 +220,8 @@ const WindowTier = () => {
                     </div>
                     <div>
                         <h3>Diamond</h3>
-                        <h2>Title Here 5</h2>
-                        <p>Quick description about this option.</p>
+                        <h2>Full-featured, high security!</h2>
+                        <p>Quick Features:</p>
                         <ul>
                             <li>Increased energy efficiency from 7 special features</li>
                             <li>Easiest to clean from 4 special features</li>
