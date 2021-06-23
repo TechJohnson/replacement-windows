@@ -4,6 +4,9 @@ import Footer from "../components/footer"
 import Navigation from "../components/navigation"
 import Button from "../components/button"
 import Img from "gatsby-image"
+import "../style/layout.css" // Default Gatsby styling
+import "../style/style.css" // Custom styling
+
 
 const AffordabilityPage = () => {
     const data = useStaticQuery(graphql`

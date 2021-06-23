@@ -2,6 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Showcase from "../components/showcase"
+import "../style/layout.css" // Default Gatsby styling
+import "../style/style.css" // Custom styling
+
 
 const Contact = () => (
   <Layout>

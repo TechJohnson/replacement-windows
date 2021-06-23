@@ -4,6 +4,9 @@ import Navigation from "../components/navigation"
 import WindowTier from "../components/windowTier"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "../style/layout.css" // Default Gatsby styling
+import "../style/style.css" // Custom styling
+
 
 const AffordabilityPage = () => {
     const data = useStaticQuery(graphql`

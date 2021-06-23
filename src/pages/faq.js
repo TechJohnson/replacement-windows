@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import Button from "../components/button"
 import Navigation from "../components/navigation"
 import Footer from "../components/footer"
+import "../style/layout.css" // Default Gatsby styling
+import "../style/style.css" // Custom styling
+
 
 const Faq = () => {
 
