@@ -1,6 +1,7 @@
 import React from "react"
 import Footer from "../components/footer"
 import Navigation from "../components/navigation"
+import WindowTier from "../components/windowTier"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -104,7 +105,7 @@ const AffordabilityPage = () => {
                 </div>
             </div>
 
-            <div className="optionSection">
+            {/* <div className="optionSection">
                 <div className="container">
                     <div style={{
                         padding: '100px 0',
@@ -163,7 +164,9 @@ const AffordabilityPage = () => {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
+
+            <WindowTier />
 
 
             <Footer />

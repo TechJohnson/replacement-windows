@@ -25,6 +25,12 @@ ul {
     color: $darkBlue;
 }
 
+li {
+    font-family: $font;
+    font-size: 1.125rem;
+    color: $darkBlue;
+}
+
 h2 {
     font-size: 24px;
     color: $darkBlue;
@@ -34,7 +40,7 @@ h2 {
 
 p {
     color: $gray;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 h3 {
@@ -233,7 +239,48 @@ form {
 .questions {
     background: #f4f4f4;
     border-radius: 10px;
-    bordeR: 1px solid #dddddd;
+    border: 1px solid #dddddd;
     padding: 20px;
     margin: 25px 0;
+}
+
+.window-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 10px 25px -3px rgba(0,0,0,.10);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.limitedWarranty {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.performance {
+    margin-bottom: 25px;
+}
+
+table {
+    font-family: $font;
+    font-size: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0;
+}
+
+td, th {
+    border: 1px solid #eeeeee;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
 }

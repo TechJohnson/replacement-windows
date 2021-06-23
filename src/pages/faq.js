@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Button from "../components/button"
 import Navigation from "../components/navigation"
 import Footer from "../components/footer"
