@@ -64,7 +64,7 @@ const WindowTier = () => {
                         <Img fixed={data.window1.childImageSharp.fixed} />
                     </div>
                     <div>
-                        <h3>Bronze</h3>
+                        <h3>Price Window</h3>
                         <h2>Perfect for a quick replacement window!</h2>
                         <p>Quick Features:</p>
                         <ul>
@@ -85,7 +85,7 @@ const WindowTier = () => {
                         <Img fixed={data.window2.childImageSharp.fixed} />
                     </div>
                     <div>
-                        <h3>Silver</h3>
+                        <h3>Competitive Window</h3>
                         <h2>Affordable replacement with great strength</h2>
                         <p>Quick Features:</p>
                         <ul>
@@ -140,7 +140,7 @@ const WindowTier = () => {
                         <Img fixed={data.window3.childImageSharp.fixed} />
                     </div>
                     <div>
-                        <h3>Gold</h3>
+                        <h3>Value Window</h3>
                         <h2>Strength and Security</h2>
                         <p>Quick Features:</p>
                         <ul>
@@ -193,7 +193,7 @@ const WindowTier = () => {
                         <Img fixed={data.window4.childImageSharp.fixed} />
                     </div>
                     <div>
-                        <h3>Platinum</h3>
+                        <h3>Platinum Window</h3>
                         <h2>Ease-of-mind</h2>
                         <p>Quick Features:</p>
                         <ul>
@@ -219,7 +219,7 @@ const WindowTier = () => {
                         <Img fixed={data.window5.childImageSharp.fixed} />
                     </div>
                     <div>
-                        <h3>Diamond</h3>
+                        <h3>Ultimate Window</h3>
                         <h2>Full-featured, high security!</h2>
                         <p>Quick Features:</p>
                         <ul>
